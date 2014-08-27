@@ -1,0 +1,10 @@
+acme_hello:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
+_acme_demo:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+
+contact:
+    path: /contact
+    defaults: { _controller: AcmeDemoBundle:Main:contact}
